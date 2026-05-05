@@ -10,8 +10,8 @@ const commodities = [
   { src: "/sugar.png", alt: "Brazilian Sugar", name: "Brazilian Sugar" },
   { src: "/coffee.png", alt: "Brazilian Coffee", name: "Brazilian Coffee" },
   { src: "/tea.png", alt: "Sri Lankan Tea", name: "Sri Lankan Tea" },
-  { src: "/spices.png", alt: "Sri Lankan Spices", name: "Sri Lankan Spices" },
-  { src: "/corn.png", alt: "Brazilian Corn", name: "Brazilian Corn" },
+  { src: "/spices.png", alt: "Spices", name: "Spices" },
+  { src: "/corn.png", alt: "Corn", name: "Corn" },
   { src: "/soy.png", alt: "Brazilian Soybeans", name: "Brazilian Soybeans" },
 ];
 const duplicatedCommodities = [...commodities, ...commodities, ...commodities, ...commodities];
@@ -20,8 +20,8 @@ const whyUsCommodities = [
   { name: "Brazilian Sugar", src: "/commodity_brazilian_sugar.png" },
   { name: "Brazilian Coffee", src: "/commodity_brazilian_coffee.png" },
   { name: "Sri Lankan Tea", src: "/commodity_sri_lankan_tea.png" },
-  { name: "Sri Lankan Spices", src: "/commodity_sri_lankan_spices.png" },
-  { name: "Brazilian Corn", src: "/commodity_brazilian_corn.png" },
+  { name: "Spices", src: "/commodity_sri_lankan_spices.png" },
+  { name: "Corn", src: "/commodity_brazilian_corn.png" },
   { name: "Brazilian Soybeans", src: "/commodity_brazilian_soybeans.png" },
 ];
 
@@ -175,7 +175,7 @@ export default function Home() {
                 <span className="text-white/70">Choose Us.</span>
               </h2>
               <p className="max-w-3xl text-base text-white/60 md:text-lg pl-4 md:pl-0 text-justify">
-                At Pey and Cey, we specialize in supplying premium agricultural products tailored for global trade. From Brazilian sugar and coffee to Sri Lankan tea and spices, every product is carefully selected for quality, origin, and market value.
+                At Pey and Cey, we specialize in supplying premium agricultural products tailored for global trade. From Brazilian soy, coffee, and sugar to Sri Lankan tea, every product is carefully selected for quality, origin, and market value.
               </p>
             </div>
           </div>

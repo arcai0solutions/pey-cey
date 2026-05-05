@@ -8,8 +8,8 @@ const initialProducts = [
   { id: "coffee", name: "Brazilian Coffee", category: "Arabica & Robusta", src: "/commodity_brazilian_coffee.png" },
   { id: "tea", name: "Sri Lankan Tea", category: "Ceylon Black & Green", src: "/commodity_sri_lankan_tea.png" },
   { id: "soybeans", name: "Brazilian Soybeans", category: "High Protein", src: "/commodity_brazilian_soybeans.png" },
-  { id: "corn", name: "Brazilian Corn", category: "Yellow Corn (Maize)", src: "/commodity_brazilian_corn.png" },
-  { id: "spices", name: "Sri Lankan Spices", category: "Cinnamon, Cloves, Pepper", src: "/commodity_sri_lankan_spices.png" },
+  { id: "corn", name: "Corn", category: "Yellow Corn (Maize)", src: "/commodity_brazilian_corn.png" },
+  { id: "spices", name: "Spices", category: "Cinnamon, Cloves, Pepper", src: "/commodity_sri_lankan_spices.png" },
 ];
 
 export function PremiumCommodities() {
